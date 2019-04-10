@@ -1,0 +1,41 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #000;
+}
+
+
+ul li {display: inline-block;
+		padding: 0px;
+
+}
+
+ul li a
+{
+	text-decoration: none;
+	background-color: #fff;
+	color: #000;
+}
+
+body
+{
+	0%
+	{
+		top: 100px;
+
+	}
+
+	50%
+	{
+		top: 50px;
+	}
+
+	100%
+	{
+		top: 38px;
+	}
