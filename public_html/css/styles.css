@@ -1,6 +1,31 @@
 * 
+.nav
+{
+	width: 900px;
+	height: 100px
+	border: 1px solid #ccc;
+	float: right;
+	background: #000;
+}
+.nav ul li
+{
+
+list-style: none;
+float: left;
+
+}
+
+.nav ul li a
+{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff;
+}
+
 {
 	margin: 0;
+
 }
 
 body
@@ -64,5 +89,7 @@ body
 }
 .col-md-6 img
 {
-	max-width: 50%;
+	/*max-width: 70%;*/
+	width: 60%;
+	height: 350px;
 }
