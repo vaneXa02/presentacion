@@ -18,9 +18,9 @@ float: left;
 .nav ul li a
 {
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 15px 15px;
 	border: 0px solid #ccc;
-	color: #fff;
+	color: #fff; 
 }
 
 {
@@ -31,7 +31,7 @@ float: left;
 body
 {
 	padding: 10px;
-	background-color: ; 
+	background:; 
 }
 
 .contenedor
@@ -97,4 +97,23 @@ body
 .contenedor table td img
 {
 	width: 50px;
+}
+.contenedor table td h3
+{
+	text-align: 100px;
+}
+
+body
+{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.contenedor hr
+{
+		width: 70%;
+}
+.contenedor table button a
+{
+	text-decoration: none;
 }
