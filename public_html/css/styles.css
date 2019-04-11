@@ -93,3 +93,8 @@ body
 	width: 60%;
 	height: 350px;
 }
+
+.contenedor table td img
+{
+	width: 50px;
+}
