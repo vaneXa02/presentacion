@@ -122,3 +122,15 @@ body
 	width: 60%;
 
 }
+.contenedor ul li
+{
+	list-style: none;
+	float: left;
+}
+.contenedor ul li a
+{
+	text-decoration: none;
+	padding: 15px 15px;
+	border: 0px solid #ccc;
+	color: blue; 
+}
