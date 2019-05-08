@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-4/css/bootstrap.css">
+	<title>Calculadora</title>
+
+</head>
+<body>
+
+<div align="center">
+<div class="panel" align="center">
+<table class="calculadora" style="width: 100%">
+
+	<div align="right" style="height: 30px;">
+
+		<form id="formulario">
+		<input type="hidden" id="dell" name="valor">
+
+		<input type="hidden" name="resultado" id="porpor">
+
+		<span type="" name="" class="border-none" id="resultado" readonly=""></span>
+
+
+</form>
+	</div>
+
+	<tr>
+	<td><button class="btn-1 btn-gray" id="raiz" onclick="raiz();">√</button></td>	
+	<td><button class="btn-1 btn-gray" id="porcentaje">%</button></td>	
+	<td><button class="btn-1 btn-gray" id="borrar" onclick="capturar()">C</button></td>	
+	<td><button class="btn-1 btn-gray" id="reset" tipo-botton="delete-all">AC</button></td>
+	</tr>
+
+    <tr>
+	<td><button class="btn" id="siete" data="7" tipo-botton="number">7</button></td>	
+	<td><button class="btn" id="ocho" data="8" tipo-botton="number">8</button></td>	
+	<td><button class="btn" id="nueve" data="9" tipo-botton="number">9</button></td>	
+	<td><button class="btn-1 btn-gray" id="division">/</button></td>
+	</tr>
+
+	<tr>
+	<td><button class="btn" id="cuatro" data="4" tipo-botton="number">4</button></td>	
+	<td><button class="btn" id="cinco" data="5" tipo-botton="number">5</button></td>	
+	<td><button class="btn" id="seis" data="6" tipo-botton="number">6</button></td>	
+	<td><button class="btn-1 btn-gray" id="multiplicacion">*</button></td>
+	</tr>
+
+	<tr>
+	<td><button class="btn" id="uno" data="1" tipo-botton="number">1</button></td>	
+	<td><button class="btn" id="dos" data="2" tipo-botton="number">2</button></td>	
+	<td><button class="btn" id="tres" data="3" tipo-botton="number">3</button></td>	
+	<td><button class="btn-1 btn-gray" id="resta">-</button></td>
+	</tr>
+
+	<tr>
+	<td><button class="btn" id="cero" data="0" tipo-botton="number">0</button></td>	
+	<td><button class="btn" id="punto">.</button></td>	
+	<td><button class="btn-1 btn-blue" id="igual" tipo-botton="igual">=</button></td>	
+	<td><button class="btn-1 btn-gray" id="suma">+
+	</button></td>
+	</tr>
+
+</table>
+</div>
+</div>
+
+
+
+
+<script src="js/jquery.js"></script>
+<script	src="libs/bootstrap-4/js/bootstrap.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
